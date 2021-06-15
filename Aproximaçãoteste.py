@@ -1,6 +1,6 @@
-baixo = int(input("Limite inferior da sequência de números desejada para a aproximação: "))
-alto = int(input("Limite superior da sequência de números desejada para a aproximação: "))
-
+baixo = int(input("Limite inferior da sequência de números desejada para a aproximação: "))   #Sugestão:1
+alto = int(input("Limite superior da sequência de números desejada para a aproximação: "))    #Sugestão:1024 (2^10 = 1024)
+                                                                                              #Máximo 10 tentativas serão necessárias.
 print("Pense em um número entre {} e {}".format(baixo, alto))
 input("Aperte qualquer tecla desejada para que a aproximação começe!")
 
